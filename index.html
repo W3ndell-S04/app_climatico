@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css">
+    <script src="js/script.js" defer></script>
+    <title>App Climático</title>
+</head>
+<body>
+    <div class="txt-principal">
+        <h1 class="titulo-principal">clima tempo</h1>
+    </div>
+    <div class="caixa-maior">
+        <input  class="input-cidade" placeholder="Digite o nome da cidade">
+        <button  class="botao-buscar" onclick="clicarBotao()">
+            <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em: </h2>
+            <span class="fi fi-jp" id="bandeira"></span>
+            <p class="temperatura">21°c</p>
+            <div class="caixa-menor">
+                <img class="img-previ" src="https://openweathermap.org/img/wn/04n.png" alt="icone-tempo">
+                <p class="txt-previsao">nublado</p>
+            </div>
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+</body>
+</html>
